@@ -8,7 +8,13 @@ export default {
     extend: {
       colors: {
         "black": "#060606"
-      }
+      },
+      fontFamily: {
+        'hanken-grotest': ['Hanken Grotesk', 'sans-serif'],
+      },
+      fontSize: {
+        '2xs': '0.625rem',
+      },
     },
   },
   plugins: [],
