@@ -1,20 +1,31 @@
 <x-layout>
-    <section>
-        <h3 class="mb-6">Top Jobs</h3>
-        <div class="p-4 bg-2hite/5 rounded-xl flex flex-col text-center">
-            <div class="self-start text-sm">Laracasts</div>
-            <div class="py-8 font-bold">
-                <h3>Video Producer</h3>
-                <p>Full Time - From $60,000</p>
+    <div class="space-y-10">
+        <section>
+            <x-section-heading>Featured Jobs</x-section-heading>
+            <div class="grid lg:grid-cols-3 gap-8 mt-6">
+                <x-job-card/>
+                <x-job-card/>
+                <x-job-card/>
             </div>
-            <div class="flex justify-between items-center mt-auto">
-                <div>
-                    <a href="" class="bg-white/10 px-2 py-1 rounded-xl text-xs hover:bg-white/25 transition-colors duration-300">Tag</a>
-                    <a href="" class="bg-white/10 px-2 py-1 rounded-xl text-xs hover:bg-white/25 transition-colors duration-300">Tag</a>
-                    <a href="" class="bg-white/10 px-2 py-1 rounded-xl text-xs hover:bg-white/25 transition-colors duration-300">Tag</a>
-                </div>
-                <img class="rounded" src="http:://placehold.it/42/42" alt="">
+        </section>
+        <section>
+            <x-section-heading>Tags</x-section-heading>
+            <div class="mt-6 space-x-1">
+                <x-tag>Tag</x-tag>
+                <x-tag>Tag</x-tag>
+                <x-tag>Tag</x-tag>
+                <x-tag>Tag</x-tag>
+                <x-tag>Tag</x-tag>
+                <x-tag>Tag</x-tag>
+                <x-tag>Tag</x-tag>
+                <x-tag>Tag</x-tag>
+                <x-tag>Tag</x-tag>
+                <x-tag>Tag</x-tag>
             </div>
-        </div>
-    </section>
+        </section>
+        <section>
+            <x-section-heading>Recent Jobs</x-section-heading>
+            
+        </section>
+    </div>
 </x-layout>
