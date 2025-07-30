@@ -6,6 +6,9 @@
 -> php artisan help make:model
 -> php artisan make:model Employer -cfs --policy
 -> php artisan make:model Job --all
+-> php artisan make:test
+-> php artisan make:model Tag -fm
+-> php artisan make:migration create_job_tag_table
 ### Premium Partners
 
 - **[Vehikl](https://vehikl.com)**
