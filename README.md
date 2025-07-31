@@ -9,6 +9,8 @@
 -> php artisan make:test
 -> php artisan make:model Tag -fm
 -> php artisan make:migration create_job_tag_table
+-> php artisan make:controller SessionController --resource
+
 ### Premium Partners
 
 - **[Vehikl](https://vehikl.com)**
